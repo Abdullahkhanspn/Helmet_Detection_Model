@@ -1,5 +1,7 @@
 # Helmet Detection Model
 
+https://github.com/user-attachments/assets/95de934a-c874-4956-a7d9-6309c8ea5e8f
+
 ## Overview
 This project implements a machine learning model that detects whether a person riding a motorbike is wearing a helmet. The model is built using YOLO (You Only Look Once) architecture and focuses specifically on helmet detection for motorbike riders, excluding other vehicles like cars or bicycles.
 
@@ -29,6 +31,33 @@ Helmet Detection Model/
 ├── logo.JPG                         # Application logo
 └── requirements.txt                 # Python dependencies
 ```
+
+### Model Weights Details
+## Model File Information
+- File Name: best.pt
+- File Size: 22.5 MB (22,519,082 bytes)
+- Architecture: YOLOv8s (Ultralytics)
+- Input Size: 640x640 pixels
+- Classes: 2 (with helmet, without helmet)
+- Created: April 7, 2026
+  
+### Model Specifications
+
+- Framework: Ultralytics YOLO
+- Model Type: YOLOv8s (small variant for faster inference)
+- Training Dataset: 6,230 annotated images
+- Confidence Threshold: 0.5 (adjustable)
+- Output Format: Bounding boxes with confidence scores
+  
+## Model Performance
+Detection Classes:
+Green bounding boxes: with helmet
+Red bounding boxes: without helmet
+Real-time Capable: ~30 FPS on GPU
+Inference Speed: Optimized for real-time applications
+
+Model Usage
+The model weights (best.pt) are ready for inference and can be loaded using:
 
 ## Key Features
 ### **Core Detection Capabilities**
