@@ -1,6 +1,9 @@
 # Helmet Detection Model
 
-https://github.com/user-attachments/assets/95de934a-c874-4956-a7d9-6309c8ea5e8f
+https://github.com/user-attachments/assets/aebd363c-d980-4f50-a49d-abced7fecd55
+
+## Helmet detection model Colab code -
+https://colab.research.google.com/drive/19J2oMdi9QGJrRsurrOzjXtwQFPDRdY0D?usp=sharing
 
 ## Overview
 This project implements a machine learning model that detects whether a person riding a motorbike is wearing a helmet. The model is built using YOLO (You Only Look Once) architecture and focuses specifically on helmet detection for motorbike riders, excluding other vehicles like cars or bicycles.
@@ -11,9 +14,6 @@ This project was developed as part of a machine learning hiring assignment with 
 - Complete implementation with multiple inference modes
 - GitHub repository with code and model weights
 - README with setup and usage instructions
-
-## Helmet detection model colab code -
-https://colab.research.google.com/drive/19J2oMdi9QGJrRsurrOzjXtwQFPDRdY0D?usp=sharing
 
 ## Project Structure
 ```
