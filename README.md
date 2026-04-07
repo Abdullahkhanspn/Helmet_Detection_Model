@@ -12,6 +12,9 @@ This project was developed as part of a machine learning hiring assignment with 
 - GitHub repository with code and model weights
 - README with setup and usage instructions
 
+## Helmet detection model colab code -
+https://colab.research.google.com/drive/19J2oMdi9QGJrRsurrOzjXtwQFPDRdY0D?usp=sharing
+
 ## Project Structure
 ```
 Helmet Detection Model/
